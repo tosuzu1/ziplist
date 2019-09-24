@@ -12,8 +12,8 @@ const list2 = [1, 2, 3];
 
 console.log(zipList(list1, list2));
 
-function zipListTheSimpleWay(list1,list2) {
-  const unflattenArray =  _.zip(list1,list2);
+function zipListTheSimpleWay(list1, list2) {
+  const unflattenArray =  _.zip(list1, list2);
   return _.flatten(unflattenArray);
 }
 
